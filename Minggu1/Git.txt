@@ -1,0 +1,14 @@
+  361  git status
+  362  git rm *
+  363  git add *
+  364  git status
+  365  git rm Tugas1.txt
+  366  git status
+  367  git commit -m"updateeeeeeeeeeeeeeeeeeeeee"
+  368  git status
+  369  cd ..
+  370  git status
+  371  cd m26415003
+  372  git push
+  373  git pull
+

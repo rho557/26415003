@@ -1,0 +1,38 @@
+  210  awk '1; { print "" }'
+  211  awk '{ print} { print "hello }'
+  212  awk '{ print} { print "hello" }'
+  213  awk '{print FNR "\t" $0}'
+  214  awk '{ print NR "\t" $0}' 
+  215  awk '{ print NR "\t" $0}' Tugas1.txt
+  216  awk '{ print s0 "\n"} Tugas1.txt
+
+  217  awk '{print $0 "\n"} Tugas1.txt
+
+
+
+  218  awk '{print}' Tugas1.txt
+  219  awk 'END { print NR }' Tugas1.txt
+  220  nano Tugas1.txt
+  221  awk '{ printf("%d : %s\n",NR,$0'}'
+  222  awk '{ printf("%d : %s\n",NR,$0'}' < Tugas1.txt
+  223  awk '{ printf("%d : %s\n",NR,$0'}' Tugas1.txt
+  224  awk '{ for (i = 1; i<=NF; i++) s = s+$1 } ; END { print s+0}'
+  225  awk '{ for (i = 1; i<=NF; i++) s = s+$1 } ; END { print s+0}' Tugas1.txt
+  226  awk '{s=0;  for (i = 1; i<=NF; i++) s = s+$1 } ; END { print s+0}' Tugas1.txt
+  227  awk '{s=0;  for (i = 1; i<=NF; i++) s = s+$1 } ; END { print s+0}'
+  228  touch test.txt
+  229  nano test.txt
+  230  cat .test.txt
+  231  cat test.txt
+  232  awk
+  233  awk print
+  234  awk '{print}' test.txt
+  235  awk '{print}' tugas1.txt
+  236  awk '{print}' Tugas1.txt
+  237  awk '{s=0;  for (i = 1; i<=NF; i++) s = s+$1 } ; END { print s+0}' test.txt
+  238  awk '{ print NR "\t" $0}' test.txt
+  239  history
+
+AWK -F"|" MENCARI PATTERN | SEBAGAI FIELD
+AWK /PATTERN/ MENCARI PATTERN PADA SUATU LINE
+

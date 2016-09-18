@@ -1,0 +1,3 @@
+AWK -F"pola" '{if (var==perbandigan) lakukan ini;}
+for i in sesuatu maka loop i hingga sesuatu
+
