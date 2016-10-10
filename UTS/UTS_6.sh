@@ -20,5 +20,5 @@ echo "$nrp|$nama|$address|$telp" >> data.txt
 
 }
 
-awk -F "|" '{nrp[NR]=$1;nama[NR]=$2;add[NR]=$3;telp[NR]=$4} {for (i in nrp) printf"%s|%s|%s|%s\n",nama[i],nrp[i],telp[i],add[i]}' data.txt > data2.txt
-awk -F "|" '{nama[NR]=$1;nrp[NR]=$2;telp[NR]=$3;add[NR]=$4} {for (i in nama) if (add[i]!="siwalankerto") printf"%s|%s|%s|%s\n",nama[i],nrp[i],telp[i],add[i]}' data2.txt > data3.txt
+awk -F "|" '{nrp[$1]=$1;nama[$1]=$2;add[$1]=$3;telp[$1]=$4} END{for (i in nrp) printf"%s|%s|%s|%s\n",nama[i],nrp[i],telp[i],add[i]}' data.txt > data2.txt
+awk -F "|" '{nama[$1]=$1;nrp[$1]=$2;telp[$1]=$3;add[$1]=$4} END{for (i in nama) if (add[i]!="siwalankerto") printf"%s|%s|%s|%s\n",nama[i],nrp[i],telp[i],add[i]}' data2.txt > data3.txt

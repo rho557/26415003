@@ -1,2 +1,3 @@
-nrp1|nama1|siwalankerto|telp1
-nrp2|nama2|add2|telp2
+123|123|siwalankerto|123
+234|234|234|234
+345|345|345|345
