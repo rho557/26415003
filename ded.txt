@@ -1,0 +1,8 @@
+#!/usr/bin/perl -w
+
+my $string = q<ABAAAAAQWLOPKJHCDABDIDOIIUYTTRHHJNANFRQAOFOOFAAAAAAZZBCGFRER>;
+my %count;
+for (split(//, $string)){
+$count{$_}++;
+}
+print("A:",$count{A},"B:",$count{B},"C:",$count{C},  "\n");
