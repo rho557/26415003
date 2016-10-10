@@ -1,0 +1,3 @@
+nama1|nrp1|telp1|siwalankerto
+nama1|nrp1|telp1|siwalankerto
+nama2|nrp2|telp2|add2
