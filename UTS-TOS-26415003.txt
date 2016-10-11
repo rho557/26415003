@@ -1,0 +1,25 @@
+1)nano no1.sh
+2)chmod 777 no1.sh
+#no1.sh
+#!/bin/bash
+
+beli= curl  http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garan$
+
+echo $beli > cek.txt
+
+echo "$beli"
+if [[ $beli >  15000000 ]]
+then
+echo ""
+else
+mail -s"subject" m26415003@john.petra.ac.id <<< "dibawah 15.000.000"
+fi
+3)./no1.sh
+4)crontab -e * 7-19/1 * * 1-5 /home/m26415003/no1.sh
+5)nano no2.sh
+6)chmod 777 no2.sh
+#no2.sh
+#!/bin/bash
+
+curl http://stats.labs.apnic.net/ipv6/ID | grep stats.labs.apnic.net/ipv6/A |aw$
+7)./no2.sh
