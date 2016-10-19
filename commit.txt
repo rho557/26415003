@@ -1,2 +1,5 @@
 crontab -e untuk mengschedule
 mail -s subject -m message address untuk mengirimkan ke sebuah email
+(perl)
+$string =~ s/foo/bar/g langsung mengubah isi string yang foo menjadi bar
+$string =~ s/(.)* (...)/$2 $1/g menukar posisi kurung ke dua dengan kurung ke satu
