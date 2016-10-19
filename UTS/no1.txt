@@ -1,0 +1,3 @@
+no 1:sed s/\r\n/\n/gi bestbooks0.csv >bestbooks1.txt
+no 2:sed s/\","/\"|"/g bestbooks1.txt > bestbooks2.txt
+

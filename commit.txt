@@ -3,3 +3,18 @@ mail -s subject -m message address untuk mengirimkan ke sebuah email
 (perl)
 $string =~ s/foo/bar/g langsung mengubah isi string yang foo menjadi bar
 $string =~ s/(.)* (...)/$2 $1/g menukar posisi kurung ke dua dengan kurung ke satu
+
+my $filename = "bestbooks2.txt";
+open(my $fh, '<:encoding(UTF-8)', $filename)
+  or die "Could not open file '$filename' $!";
+
+my $filewrite="bestbooks3.txt";
+open(my $fw, '>>', $filewrite ) or die "Could not open file '$filename' $!";
+
+while (my $row = <$fh>) {
+        chomp ($row);
+        $row=~ s/^\"//;
+        $row=~ s/(.)\"/$1/g;
+        say $fw $row;
+}
+
