@@ -2,4 +2,5 @@ curl -H "Content-Type: application/json" -X POST -d '{"username":"xyz","password
 #UNTUK POST METHOD
  curl -i -H "Accept: application/json" "server:5050/a/c/getName?param0=foo&param1=bar
 #UNTUK GET METHOD
-2
+3
+4
