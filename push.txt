@@ -26,4 +26,10 @@ class Contoh:
         print a
 #penggunaan sesuatu=Contoh()
 #           sesuatu.a || sesuatu.function()
-5)
+5)dict
+phonebook = {
+    "John" : 938477566,
+    "Jack" : 938377264,
+    "Jill" : 947662781
+}
+#contoh dictionary , seperti key dan hash pada perl
