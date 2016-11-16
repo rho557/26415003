@@ -18,4 +18,12 @@ for x in range(10):
     print x
 #mengeprint ganjil , continue berarti bila memenuhi syarat akan
 # melewati command dalam looping
-4)
+4)Class
+class Contoh:
+    a = 1
+
+    def function(self):
+        print a
+#penggunaan sesuatu=Contoh()
+#           sesuatu.a || sesuatu.function()
+5)
