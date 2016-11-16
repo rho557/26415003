@@ -6,4 +6,9 @@ three = one + two
 hello = "hello"
 world = "world"
 helloworld = hello + " " + world
-2)
+2)function
+def jumlah(a, b):
+    return a + b
+#pemanggilan
+angka = jumlah(5,7)
+3)
